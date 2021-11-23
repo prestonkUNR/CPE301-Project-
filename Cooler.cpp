@@ -1,9 +1,23 @@
-#ifndef COOLER_H
-#define COOLER_H
+//definitions
+#include "Cooler.h"
 
+Cooler::Cooler(){
+    //set up initial state
+}
 
-class Cooler{
+void Cooler::temperatureMonitor(){
+  //whatever the current state is just calls their tempMon. fcn
+    currentState -> temperatureMonitor();
+}
 
-};
+void Cooler::humidityMonitor(){
+  currentState -> humidityMonitor();
+}
 
-#endif
+void Cooler::LED(){
+  currentState->LED();
+}
+
+void Cooler::display(){
+  currentState->display();
+}
