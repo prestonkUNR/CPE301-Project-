@@ -1,4 +1,0 @@
-#include "CoolerState.h" //definitions
-
-
-
