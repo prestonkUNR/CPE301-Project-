@@ -24,4 +24,4 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);// LED OFF
   delay(1000); // Second Wait 
 }
-// https://www.youtube.com/watch?v=nAv5pmGzqsk Example Code/Wiring Vidoe
+// https://www.youtube.com/watch?v=nAv5pmGzqsk Example Code/Wiring Video
